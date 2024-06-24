@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Horizontal Scroll Animation</title>
+  <link rel="stylesheet" href="css/gallery.css">
+</head>
+<body>
+
+
+    
+    <div class="container">
+        <div class="section">
+
+
+            <div class="wrap">
+                <div class="frame">
+                    <img class="imageid" src="img/kk.png" alt=""></div>
+                <div class="text-overlay">
+                    DISCOVER
+                    <img src="img/line.svg" alt="">
+                    <span class="red">PASSION</span>
+                    
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+        <div class="section">
+
+            <div class="wrap">
+                <div class="frame">
+                    <img class="imageid" src="img/yellow.webp""></div>
+                <div class="text-overlay">
+                    
+                    
+                    <span class="red">01</span>
+                    
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="section">
+
+    
+            <div class="wrap">
+                <div class="frame">
+                    <img class="imageid" src="img/blue.webp""></div>
+                <div class="text-overlay">
+
+                    
+                    <span class="red">04</span>
+                    
+                </div>
+            </div>
+        </div>
+
+
+        <div class="section">
+
+            <div class="wrap">
+                <div class="frame">
+                    <img class="imageid" src="img/2.png""></div>
+                <div class="text-overlay">
+                    
+                    
+                    <span class="red">03</span>
+                    
+                </div>
+            </div>
+    
+
+
+        </div>
+
+
+      </div>
+
+      <div class="spacer">
+
+        <footer class="footer">
+            <div class="footer-links">
+              <div>
+                <a href="#">NIRF 2024</a>
+                <a href="#">Faculty Lists</a>
+                <a href="#">ERP Login</a>
+                <a href="#">IT Returns</a>
+              </div>
+              <div>
+                <a href="#">About</a>
+                <a href="#">Exam cell</a>
+                <a href="#">Admissions</a>
+                <a href="#">Campus life</a>
+              </div>
+              <div>
+                <a href="#">IQAC</a>
+                <a href="#">Placement Data</a>
+                <a href="#">Administrative Manual</a>
+                <a href="#">Mandatory Disclosure</a>
+              </div>
+            </div>
+            <div class="footer-logo">
+              <img src="img/Star 2.webp" alt="" class="ro">
+            </div>
+          </footer>
+
+      </div>
+      
+    
+    
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="js/gallery.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.0.0/lenis.min.js"></script>
+  <script>
+    const lenis = new Lenis();
+
+    lenis.on("scroll", (e) => {
+      console.log(e);
+    });
+
+    function raf(time) {
+      lenis.raf(time);
+      requestAnimationFrame(raf);
+    }
+
+    requestAnimationFrame(raf);
+  </script>
+</body>
+</html>

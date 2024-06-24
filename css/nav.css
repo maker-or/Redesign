@@ -1,0 +1,88 @@
+body{
+        margin: 0%;
+        padding: 0%;
+
+        
+
+}
+.content-wrapper{
+        display: flex;
+        width: 100vw;
+        height:90vh;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: nowrap;
+        align-items: center;
+        
+        
+}
+
+h1{
+        font-family: pp neue manchina;;
+        font-size: 6rem;
+        font-weight: 400;
+        font-style: normal;
+        padding: 2vw;
+        
+}
+
+.box1{
+        border-bottom: solid;
+        width: 100vw;
+        border-top:solid;
+        border-color: #141414;
+        height: 25vh;
+        margin: 0%;
+        padding: 0%;
+        
+}
+.box2{
+        width: 100vw;
+        height: 25vh;
+       
+}
+.box3{
+        border-bottom: solid;
+        width: 100vw;
+        border-top:solid;
+        border-color: #141414;
+        height: 25vh;
+        margin: 0%;
+        padding: 0%;
+        
+}
+
+:hover.box1{
+        background-color: #141414;
+        color: #E9E9E9;
+        
+}
+
+:hover.box2{
+        background-color: #141414;
+        color: #E9E9E9;
+        
+}
+
+
+:hover.box3{
+        background-color: #141414;
+        color: #E9E9E9;
+        
+}
+
+.back-arrow{
+        width: 100vw;
+        padding: 2vw;
+        height: 0.1vh;
+}
+
+a{
+        text-decoration: none;
+        color: #141414;
+}
+
+
+
+
+
