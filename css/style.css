@@ -20,7 +20,7 @@ body{
 
 .block-cointainer{
   width: 100vw;
-   min- min-height: 100vh;
+   min-height: 100vh;
   position: relative;
 }
 
@@ -72,7 +72,7 @@ body{
     flex-direction: column;
     align-items: center;
     width:100vw;
-     min- min-height: 100vh; 
+     min-height: 100vh; 
 
 
 }
@@ -246,7 +246,7 @@ text animation
   gap: 20vh;
   width: 100vw;
   position: relative;
-  min- min-height: 100vh;
+  min-height: 100vh;
   place-items: center;
   background-color: #fafafa;
   color:#1e1e1e;
@@ -255,13 +255,13 @@ text animation
 }
 
 .before {
-  min- min-height: 100vh;
+  min-height: 100vh;
 }
 .blur-text {
   width: 70vw;
   max-width: 1000px;
   min-width: 300px;
-  line- min-height: 1.2;
+  line-height: 1.2;
   font-family: Helvetica;
   font-size: clamp(1.5rem, 5vw, 5rem);
 }
@@ -394,7 +394,7 @@ head{
 
 .gallery p {
 	font-size:clamp(1.4em, 2.5vw, 3.5em);
-	line- min-height:1.4 ;
+	line-height:1.4 ;
   font-family: Helvetica;
 }
 
@@ -423,7 +423,7 @@ head{
 }
 
 .desktopContentSection {
-	min- min-height:100vh;
+	min-height:100vh;
 	/* outline:1px solid green; */
 	display:flex;
 	flex-direction:column;
